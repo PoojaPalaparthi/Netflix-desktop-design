@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid back-img">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#"><img src="./netflix-logo.PNG" alt="Netflix"></a>
+              
+                <div class="navbar-right " >
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-outline-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                                <i class="bi bi-globe"></i> English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item signin"><button type="button" onclick="signin()">Sign in</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-hero">
+            <h1>Unlimited movies, TV</h1>
+            <h1>shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            <div class="search">
+                <input type="text" placeholder="Email address">
+                <button type="button" onclick="getstarted()" class="btn btn-danger">Get Started &gt;</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="section-container">
+
+        <!--Section 1-->
+        <div class="section1 p-5">
+            <div class="d-flex mt-3 flex-lg-row flex-md-row flex-sm-column flex-column flex-nowrap justify-content-center align-items-center text-sm-center text-center text-md-start main-row">
+                <div class="left p-5">
+                    <h1>Enjoy on your TV.</h1>
+                    <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+                </div>
+                <div class="right p-5">
+                    <iframe src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!--Section 2-->
+
+        <div class="section2 p-3">
+            <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column flex-nowrap justify-content-center align-items-center text-sm-center text-center text-md-start main-row">
+                <div class="left order-lg-1 order-md-1 order-sm-2 order-2 p-3">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="downloads">
+                </div>
+                <div class="right order-lg-2 order-md-2 order-sm-1 order-1 text-sm-center text-center text-md-start main-col-text p-3">
+                    <h1>Download your</h1>
+                    <h1>shows to watch</h1>
+                    <h1>offline.</h1>
+                    <h3>Save your favourites easily and always</h3>
+                    <h3>have something to watch.</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--Section 3-->
+
+        <div class="section3 ">
+            <div class="d-flex p-3 flex-lg-row flex-md-row flex-sm-column flex-column flex-nowrap justify-content-center align-items-center text-sm-center text-center text-md-start main-row">
+                <div class="left p-5">
+                    <h1>Watch everywhere.</h1>
+                    <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+                </div>
+                <div class="right p-5">
+                    <iframe src="https://giphy.com/embed/QXCmokDXM7WGNli8aa" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Section 4-->
+
+        <div class="section4 p-3">
+            <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column flex-nowrap justify-content-center align-items-center text-sm-center text-center text-md-start main-row">
+                <div class="left order-lg-1 order-md-1 order-sm-2 order-2 p-3">
+                    <img src="https://occ-0-2085-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="downloads">
+                </div>
+                <div class="right order-lg-2 order-md-2 order-sm-1 order-1 text-sm-center text-center text-md-start main-col-text p-3">
+                    <h1>Create profiles for</h1>
+                    <h1>children.</h1>
+                    <h3>Send children on adventures with their</h3>
+                    <h3>favourite characters in a space made</h3>
+                    <h3>just for them—free with your</h3>
+                    <h3>membership.</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="faq-section">
+            <div class="faq-container">
+                <h1>Frequently Asked Questions</h1>
+
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            What is Netflix?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            How much does Netflix cost?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Where can I watch?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            How do I cancel?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div class="accordion-body">
+                                <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            What can I watch on Netflix?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div class="accordion-body">
+                            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Is Netflix good for kids?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div class="accordion-body">
+                            <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                        </div>
+                        </div>
+                      </div>
+
+                  </div>
+
+                  <div class="netflixsearch">
+                    <input type="text" placeholder="Email address">
+                    <button type="button" onclick="getstarted()" class="btn btn-danger">Get Started &gt;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer p-5">
+            <h6 >Questions? Call 000-800-040-1843</h6>
+            <div class="row">
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/support/412">FAQ</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/">Help Centre</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="http://help.netflix.com/youraccount">Account</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://media.netflix.com/">Media Centre</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="http://ir.netflix.com/">Invester Relations</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://jobs.netflix.com/jobs">Jobs</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://jobs.netflix.com/watch">Ways to Watch</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/legal/privacy">Privacy</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="file:///D:/Web%20Development/Pooja%20Web%20Dev/Edureka/edureka%20content/netflix/netflix_bootstrap_homepage_code_(1)_wnj_lz1s7ws/Bootstrap/netflix_bootstrap.html#">Cookie Preferences</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/contactus">Contact Us</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="http://fast.com/">Speed Test</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+                </div>
+                <div class="txtdec col-6 col-sm-6 col-md-4 col-lg-3 py-3">
+                    <a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <button class="btn btn-outline-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                <i class="bi bi-globe"></i> English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+            </ul>
+        </div>
+
+        <p>Netflix India</p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

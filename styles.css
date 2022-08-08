@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 8px 22px 8px 20px !important;
+    width: 100% !important;
+}
+
+.back-img{
+    height: 700px;
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    border-bottom: 8px solid #222;
+}
+
+.dropdown button{
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid white;
+    background: none;
+    padding:  6px 13px !important;
+}
+
+.btn{
+    border-radius: 0px !important;
+}
+
+
+.btn:hover{
+    color: white !important;
+}
+
+
+.btn:active, .btn:hover{
+    background: none !important;
+}
+
+.dropdown-menu li a{
+    color: black;
+}
+
+.navbar-nav .signin button{
+    background: none !important;
+    background-color: #e50914 !important;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+/*Container hero*/
+
+.container-hero{
+    color: white;
+    text-align: center;
+    margin-top: 135px !important;
+}
+
+.container-hero h1{
+    font-size: 3.5rem;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+    margin-top: -10px !important;
+}
+
+.container-hero h3{
+    font-size: 1.6rem; 
+    margin-top: 15px !important;
+    font-family: sans-serif;
+
+}
+
+.container-hero h4{
+    font-size: 1.2rem; 
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.search{
+    max-width: 700px !important;
+    margin-left: 22% !important;
+    margin-top: 30px !important;
+}
+.search input{
+    width: 460px;
+    padding: 14px !important;
+}
+
+.search button{
+    width: 230px;
+    background-color: #e50914 !important;
+    border-radius: 3px !important;
+    padding: 10px !important;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+
+.search button:hover{
+    background-color: #e50914 !important;
+   color: white;
+}
+
+/*section container*/
+.section-container{
+    background-color: black;
+}
+
+
+
+
+/*section 1 */
+.section1{
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.section1 .left{
+    color: white;
+    width: 470px;
+   
+}
+
+.section1 .left h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.section1 .left h3{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.right iframe{
+    width: 400px;
+    height: 240px;
+}
+
+/*section 2*/
+
+.section2{
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.section2 .right{
+    color: white;
+    width: 450px !important;
+    margin-left: 15px !important;
+   
+}
+
+.section2 .right h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.section2 .right h3{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.left img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*section 3 */
+.section3{
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.section3 .left{
+    color: white;
+    width: 500px !important;
+   
+}
+
+.section3 .left h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.section3 .left h3{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.right iframe{
+    width: 400px;
+    height: 240px;
+}
+
+
+/*section 4*/
+
+.section4{
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.section4 .right{
+    color: white;
+    width: 450px !important;
+    margin-left: 15px !important;
+   
+}
+
+.section4 .right h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.section4 .right h3{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.left img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*FAQ section*/
+
+.faq-section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    border-bottom: 8px solid #222;
+}
+
+.faq-container h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 50px auto !important;
+}
+
+
+
+.accordion-item{
+background-color: #222 !important;
+margin-bottom: 10px !important;
+border-radius: 0 !important;
+border: none !important;
+padding: 20px 0;
+
+}
+
+.accordion-header button{
+    background-color: #222 !important;
+    border-radius: 0 !important;
+    color: white;
+    border: none !important;
+    outline: none !important;
+    font-size: 2rem !important;
+}
+
+.accordion-body p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.netflixsearch{
+    max-width: 700px !important;
+    margin-left: 10% !important;
+    margin-top: 30px !important;
+    margin-bottom: 20px;
+}
+.netflixsearch input{
+    width: 460px;
+    padding: 14px !important;
+}
+
+.netflixsearch button{
+    width: 230px;
+    background-color: #e50914 !important;
+    border-radius: 3px !important;
+    padding: 10px !important;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+
+.netflixsearch button:hover{
+    background-color: #e50914 !important;
+   color: white;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer h6{
+    opacity: 0.5;
+}
+
+.footer h6:hover{
+   text-decoration: underline;
+}
+
+.footer .txtdec a{
+   text-decoration: none !important;
+   color: white !important;
+   opacity: 0.5;
+}
+
+
+.footer .txtdec a:hover{
+    text-decoration: underline !important;
+    
+ }
+
+ .lang{
+    background-color: black;
+    padding-left: 50px;
+    padding-bottom: 50px;
+ }
+
+ .section-container p{
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    color: white;
+    opacity: 0.5;
+ }
